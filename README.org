@@ -1,0 +1,107 @@
+#+TITLE: Linux Trivia Kahoot
+
+#+options: H:1 toc:nil
+#+latex_class: beamer
+#+latex_header: \hypersetup{colorlinks=true}
+#+export_file_name: technica-linux-trivia-kahoot-slides.pdf
+
+# Install Emacs and LaTex, then open this file in Emacs and run M-x org-beamer-export-to-pdf
+# These slides are a companion to the Kahoot but do not contain answers.
+
+* Who uses Linux?
+
+Lots of people!
+
+- Every big tech company uses Linux in production and contributes to it: ~75% of Linux code is written by corporation employees!
+- Linux is installed on zillions of devices: routers, embedded systems, servers, etc.
+- Hundreds of thousands of people use Linux on their personal devices (extrapolated from the ~1% of Steam users using Linux).
+
+[[https://findly.in/how-many-linux-users-are-there/][Further reading]].
+
+* Notable mention: BSD
+
+The Berkeley Software Distribution is another Unix-like operating system family. Most Linux software has been ported to BSD.
+
+1. FreeBSD = general purpose
+2. OpenBSD = security
+3. NetBSD = portability
+
+* What is Free Software?
+
+Software that meets 4 essential freedoms:
+
+0. [@0] The freedom to run the program for any purpose.
+1. The freedom to study how the program works, and change it as you wish.
+2. The freedom to redistribute copies.
+3. The freedom to distribute copies of your modified versions.
+
+(Adapted from [[https://www.gnu.org/philosophy/free-sw.en.html][What is free software?]])
+
+
+* Examples of libre software that run on Linux
+- VLC media player
+- All major browser engines:
+  - Google Chromium, the libre software base for nonfree Google Chrome
+  - Mozilla Firefox
+  - WebKit, the libre software base for nonfree Safari
+- Almost all programming languages
+  - Python, R, Rust, Go, C, C++, Java, JavaScript, Ruby, etc
+- Almost all command line tools
+  - Git, OpenSSH, Apache, Nginx, Node, etc
+
+* Major licenses
+
+- proprietary: not allowed to make changes
+- GPL: changes you make must be shared
+- BSD: changes you make do not have to be shared
+- Public domain: no copyright owner
+
+* The shell is the primary interactive program in the terminal
+
+1. Bash: the GNU shell.
+2. Zsh: very customizable.
+3. Tcsh: uses C-style syntax.
+4. Fish: lots of goodies out of the box, such as syntax highlighting and autosuggestions.
+
+* Commands
+
+- Navigate terminal
+- Copy and delete files
+- Installing software
+
+* Distributions
+
+Since Linux is just a kernel, it is distributed with useful software. Thus the collection of the kernel and software is called a distribution (aka distro).
+
+- /Independent/ distros started by compiling the kernel and programming language toolchains from scratch. /Derivative/ distributions use independent distros as a base for further customization. For example, Debian is independent and Ubuntu is a derivative of Debian.
+- /Binary-based/ distros distribute pre-compiled software. /Source-based/ distros expect the user to compile it from source, which takes longer but is more customizable. For example, Arch is binary-based and Gentoo is source based.
+
+* Desktop
+
+A small subset of Linux desktops:
+
+| Desktop | UI toolkit | Install Size | Supports Wayland? |
+|---------+------------+--------------+-------------------|
+| GNOME   | GTK        | Large        | Yes               |
+| KDE     | QT         | Large        | Yes               |
+| XFCE    | GTK        | Small        | No                |
+| LXQT    | QT         | Small        | No                |
+
+- You can always install a new desktop and select it from the login menu.
+- Larger desktops tend to come with more features preinstalled.
+- Wayland and Xorg are the two major display architectures for Linux graphics. It's important to know which one you're using when troubleshooting.
+
+* Fun facts
+
+1. Linux Torvalds is the lead developer and maintainer of Linux.
+2. The Linux mascot is a penguin.
+
+* What next?
+
+Number 1 tip as a developer: know how to get help!
+
+1. Read the documentation
+2. Search the internet
+3. Ask for help on forums, by email, or by internet chat
+
+Good luck on starting your Linux journey! If you are a UMD student you can join the [[https://terplink.umd.edu/organization/linux-club-at-umd][Linux Club at UMD]].

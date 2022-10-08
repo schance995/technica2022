@@ -1,0 +1,161 @@
+% Created 2022-10-08 Sat 19:53
+% Intended LaTeX compiler: pdflatex
+\documentclass[presentation]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+\usetheme{default}
+\date{\today}
+\title{Linux Trivia Kahoot}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={Linux Trivia Kahoot},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.0.50 (Org mode 9.5.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\begin{frame}[label={sec:orgd297123}]{Who uses Linux?}
+Lots of people!
+
+\begin{itemize}
+\item Every big tech company uses Linux in production and contributes to it: \textasciitilde{}75\% of Linux code is written by corporation employees!
+\item Linux is installed on zillions of devices: routers, embedded systems, servers, etc.
+\item Hundreds of thousands of people use Linux on their personal devices (extrapolated from the \textasciitilde{}1\% of Steam users using Linux).
+\end{itemize}
+
+\href{https://findly.in/how-many-linux-users-are-there/}{Further reading}.
+\end{frame}
+
+\begin{frame}[label={sec:org828d538}]{Notable mention: BSD}
+The Berkeley Software Distribution is another Unix-like operating system family. Most Linux software has been ported to BSD.
+
+\begin{enumerate}
+\item FreeBSD = general purpose
+\item OpenBSD = security
+\item NetBSD = portability
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[label={sec:org4e04856}]{What is Free Software?}
+Software that meets 4 essential freedoms:
+
+\begin{enumerate}
+\setcounter{enumi}{-1}
+\item The freedom to run the program for any purpose.
+\item The freedom to study how the program works, and change it as you wish.
+\item The freedom to redistribute copies.
+\item The freedom to distribute copies of your modified versions.
+\end{enumerate}
+
+(Adapted from \href{https://www.gnu.org/philosophy/free-sw.en.html}{What is free software?})
+\end{frame}
+
+
+\begin{frame}[label={sec:org52739b9}]{Examples of libre software that run on Linux}
+\begin{itemize}
+\item VLC media player
+\item All major browser engines:
+\begin{itemize}
+\item Google Chromium, the libre software base for nonfree Google Chrome
+\item Mozilla Firefox
+\item WebKit, the libre software base for nonfree Safari
+\end{itemize}
+\item Almost all programming languages
+\begin{itemize}
+\item Python, R, Rust, Go, C, C++, Java, JavaScript, Ruby, etc
+\end{itemize}
+\item Almost all command line tools
+\begin{itemize}
+\item Git, OpenSSH, Apache, Nginx, Node, etc
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:org3f6cafb}]{Major licenses}
+\begin{itemize}
+\item proprietary: not allowed to make changes
+\item GPL: changes you make must be shared
+\item BSD: changes you make do not have to be shared
+\item Public domain: no copyright owner
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:org7b18c15}]{The shell is the primary interactive program in the terminal}
+\begin{enumerate}
+\item Bash: the GNU shell.
+\item Zsh: very customizable.
+\item Tcsh: uses C-style syntax.
+\item Fish: lots of goodies out of the box, such as syntax highlighting and autosuggestions.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[label={sec:org788a7f4}]{Commands}
+\begin{itemize}
+\item Navigate terminal
+\item Copy and delete files
+\item Installing software
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:org1454ab8}]{Distributions}
+Since Linux is just a kernel, it is distributed with useful software. Thus the collection of the kernel and software is called a distribution (aka distro).
+
+\begin{itemize}
+\item \emph{Independent} distros started by compiling the kernel and programming language toolchains from scratch. \emph{Derivative} distributions use independent distros as a base for further customization. For example, Debian is independent and Ubuntu is a derivative of Debian.
+\item \emph{Binary-based} distros distribute pre-compiled software. \emph{Source-based} distros expect the user to compile it from source, which takes longer but is more customizable. For example, Arch is binary-based and Gentoo is source based.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:org0f4b767}]{Desktop}
+A small subset of Linux desktops:
+
+\begin{center}
+\begin{tabular}{llll}
+Desktop & UI toolkit & Install Size & Supports Wayland?\\
+\hline
+GNOME & GTK & Large & Yes\\
+KDE & QT & Large & Yes\\
+XFCE & GTK & Small & No\\
+LXQT & QT & Small & No\\
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item You can always install a new desktop and select it from the login menu.
+\item Larger desktops tend to come with more features preinstalled.
+\item Wayland and Xorg are the two major display architectures for Linux graphics. It's important to know which one you're using when troubleshooting.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:orgd2c1c13}]{Fun facts}
+\begin{enumerate}
+\item Linux Torvalds is the lead developer and maintainer of Linux.
+\item The Linux mascot is a penguin.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[label={sec:org5d92043}]{What next?}
+Number 1 tip as a developer: know how to get help!
+
+\begin{enumerate}
+\item Read the documentation
+\item Search the internet
+\item Ask for help on forums, by email, or by internet chat
+\end{enumerate}
+
+Good luck on starting your Linux journey! If you are a UMD student you can join the \href{https://terplink.umd.edu/organization/linux-club-at-umd}{Linux Club at UMD}.
+\end{frame}
+\end{document}
